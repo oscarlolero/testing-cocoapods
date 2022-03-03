@@ -6,5 +6,6 @@ target 'TestingCocoa' do
   use_frameworks!
 
   # Pods for TestingCocoa
-
+  pod 'TensorFlowLiteSwift'
+  pod 'OpenCV', '~> 4.3.0'
 end

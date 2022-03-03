@@ -42,8 +42,8 @@ Pod::Spec.new do |spec|
   #spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
 
-  #spec.static_framework = true
-  #spec.dependency 'TensorFlowLiteSwift', '~> 2.1.0'
-  #spec.dependency 'OpenCV', '~> 4.3.0'
+  spec.static_framework = true
+  spec.dependency 'TensorFlowLiteSwift', '~> 2.1.0'
+  spec.dependency 'OpenCV', '~> 4.3.0'
 end
 
